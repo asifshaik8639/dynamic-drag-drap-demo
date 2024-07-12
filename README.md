@@ -10,7 +10,7 @@ This is a simple full-stack application that demonstrates drag-and-drop function
 - Save the order of cards locally and update every five seconds if changes are made.
 
 ## Pending
- - View card images in an overlay  with a placeholder spinner during loading.
+ - Displaying a placeholder spinner during loading.
 
 ## Technologies Used
 - **Frontend:** React, JavaScript, CSS
@@ -22,7 +22,7 @@ This is a simple full-stack application that demonstrates drag-and-drop function
 
 1. **Follow the Instructions**
    
-   - This project is created on top Vite + React + SWC for simplicity
+   - This project is created on top Vite + React + SWC for simplicity and for demo purposes.
 
    ```sh
    - git clone https://github.com/asifshaik8639/dynamic-drag-drap-demo.git
@@ -32,38 +32,40 @@ This is a simple full-stack application that demonstrates drag-and-drop function
    - run => npm run dev or if permission required run => sudo run dev
    - Application is ready to run on the given host and port.
    - Launch the application in the browser
-   
+   -End
 
- ## File Structure
+## File Structure and Important Files
+
+drag-drop-demo
 │
 ├── public
-│   ├── index.html
-│   └── ...
+│ ├── index.html
+│ └── mockServiceWorker.js
 │
 ├── src
-│   ├── assets
-│   │   ├── cat.jpg
-│   │   ├── cow.jpg
-│   │   ├── forest.jpg
-│   │   ├── lion.jpg
-│   │   └── tiger.jpg
-│   │
-│   ├── components
-│   │   └── DraggableContainers.js
-│   │
-│   ├── hooks
-│   │   └── useKeyDown.js
-│   │
-│   ├── mocks
-│   │   ├── handlers.js
-│   │   └── browser.js
-│   │
-│   ├── utils
-│   │   └── debounce.js
-│   │
-│   ├── App.css
-│   ├── index.js
-│   └── setupTests.js
+│ ├── assets
+│ │ ├── cat.jpg
+│ │ ├── cow.jpg
+│ │ ├── forest.jpg
+│ │ ├── lion.jpg
+│ │ └── tiger.jpg
+│ │
+│ ├── components
+│ │ └── DraggableContainers.js
+│ │
+│ ├── hooks
+│ │ └── useKeyDown.js
+│ │
+│ ├── mocks
+│ │ ├── handlers.js
+│ │ └── browser.js
+│ │
+│ ├── utils
+│ │ └── debounce.js
+│ │
+│ ├── App.css
+│ ├── index.js
+│ └── setupTests.js
 │
 ├── .gitignore
 ├── README.md
